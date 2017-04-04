@@ -10,7 +10,7 @@ RUN cd $JBOSS_HOME \
 
 
 # Add default user
-RUN /opt/jboss/wildfly/bin/add-user.sh admin admin --silent
+RUN /opt/jboss/wildfly/bin/add-user.sh admin admin123! --silent
 
 
 # Apiman properties
