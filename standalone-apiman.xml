@@ -162,14 +162,14 @@
                     </security>
                 </datasource>
                 <datasource enabled="true" jndi-name="java:jboss/datasources/apiman-manager" pool-name="apiman-manager-api" use-java-context="true">
-                    <connection-url>jdbc:postgresql://${env.POSTGRES_PORT_5432_TCP_ADDR:localhost}:${env.POSTGRES_PORT_5432_TCP_PORT:5432}/${env.POSTGRES_ENV_POSTGRES_DB:apiman}</connection-url>
+                    <connection-url>jdbc:postgresql://localhost:5432/ApiManagerDS</connection-url>
                     <driver>postgresql</driver>
                     <pool>
                         <max-pool-size>30</max-pool-size>
                     </pool>
                     <security>
-                        <user-name>${env.POSTGRES_ENV_POSTGRES_USER:apiman}</user-name>
-                        <password>${env.POSTGRES_ENV_POSTGRES_PASSWORD:apiman}</password>
+                        <user-name>apiman</user-name>
+                        <password>apiman</password>
                     </security>
                 </datasource>
                 <drivers>
