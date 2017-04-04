@@ -18,7 +18,7 @@ ADD apiman.properties /opt/jboss/wildfly/standalone/configuration/
 
 
 # SSL
-ADD apiman_gateway.jks /opt/jboss/wildfly/standalone/configuration/
+#ADD apiman_gateway.jks /opt/jboss/wildfly/standalone/configuration/
 
 
 # Postgres
