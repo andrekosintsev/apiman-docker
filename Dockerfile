@@ -1,6 +1,6 @@
 FROM jboss/wildfly:8.2.0.Final
 
-ENV APIMAN_VERSION 1.1.9.Final
+ENV APIMAN_VERSION 1.2.1.Final
 
 # Download APIMAN overlay for wildfly
 RUN cd $JBOSS_HOME \
@@ -18,7 +18,7 @@ ADD apiman.properties /opt/jboss/wildfly/standalone/configuration/
 
 
 # SSL
-ADD apiman_gateway.jks /opt/jboss/wildfly/standalone/configuration/
+#ADD apiman_gateway.jks /opt/jboss/wildfly/standalone/configuration/
 
 
 # Postgres
