@@ -1,4 +1,4 @@
-FROM jboss/wildfly:8.2.0.Final
+FROM jboss/wildfly:10.0.0.Final
 
 ENV APIMAN_VERSION 1.2.9.Final
 
