@@ -5,7 +5,7 @@ ENV APIMAN_VERSION 1.2.8.Final
 # Download APIMAN overlay for wildfly
 RUN cd $JBOSS_HOME \
  && curl http://downloads.jboss.org/overlord/apiman/$APIMAN_VERSION/apiman-distro-wildfly8-$APIMAN_VERSION-overlay.zip -o apiman-distro-wildfly8-$APIMAN_VERSION-overlay.zip \
- && bsdtar -xf apiman-distro-wildfly10-$APIMAN_VERSION-overlay.zip \
+ && bsdtar -xf apiman-distro-wildfly8-$APIMAN_VERSION-overlay.zip \
  && rm apiman-distro-wildfly8-$APIMAN_VERSION-overlay.zip
 
 # Add default user
