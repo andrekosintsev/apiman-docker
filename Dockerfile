@@ -1,6 +1,6 @@
 FROM jboss/wildfly:8.2.0.Final
 
-ENV APIMAN_VERSION 1.2.1.Final
+ENV APIMAN_VERSION 1.2.0.Final
 
 # Download APIMAN overlay for wildfly
 RUN cd $JBOSS_HOME \
