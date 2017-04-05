@@ -162,7 +162,7 @@
                     </security>
                 </datasource>
                 <datasource enabled="true" jndi-name="java:jboss/datasources/apiman-manager" pool-name="apiman-manager-api" use-java-context="true">
-                    <connection-url>jdbc:postgresql://localhost:5432/ApiManagerDS</connection-url>
+                    <connection-url>jdbc:postgresql://localhost:5432/apiman</connection-url>
                     <driver>postgresql</driver>
                     <pool>
                         <max-pool-size>30</max-pool-size>
